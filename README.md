@@ -13,8 +13,7 @@
 ## Introduction
 
 <p align="center">
-<img src="http://vignette3.wikia.nocookie.net/stargate/images/1/1b/Ancient_alpahabet.png/revision/latest?cb=20070103050644
-" alt="Alteran Language" />
+<img src="http://vignette3.wikia.nocookie.net/stargate/images/1/1b/Ancient_alpahabet.png/revision/latest?cb=20070103050644" alt="Alteran Language" />
 </p>
 
 Alteran is a small localization framework that greatly improves how you deal with internationalization on Apple platforms.
