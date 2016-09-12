@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/milot/Alteran.git", :tag => "#{s.version}" }
 
-  s.source_files = "AlteranLocalization/Alteran/*.{swift}"
+  s.source_files = "Alteran/*.{swift}"
 
 end

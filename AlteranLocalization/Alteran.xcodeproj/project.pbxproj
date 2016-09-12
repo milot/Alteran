@@ -1,1029 +1,2084 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		172A99591D7FF29B007C0FF5 /* Alteran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFB1D7FEE1E00066C60 /* Alteran.swift */; };
-		172A995A1D7FF29B007C0FF5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFD1D7FEEBB00066C60 /* Constants.swift */; };
-		172A995B1D7FF29B007C0FF5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFF1D7FEF2100066C60 /* Extensions.swift */; };
-		172A995C1D7FF29B007C0FF5 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EED011D7FF20E00066C60 /* Functions.swift */; };
-		172A99651D7FF2B1007C0FF5 /* AlteranTV.h in Headers */ = {isa = PBXBuildFile; fileRef = 172A99641D7FF2B1007C0FF5 /* AlteranTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		172A996C1D7FF2B1007C0FF5 /* AlteranTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172A99621D7FF2B1007C0FF5 /* AlteranTV.framework */; };
-		172A99711D7FF2B1007C0FF5 /* AlteranTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A99701D7FF2B1007C0FF5 /* AlteranTVTests.swift */; };
-		172A99791D7FF2BB007C0FF5 /* Alteran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFB1D7FEE1E00066C60 /* Alteran.swift */; };
-		172A997A1D7FF2BB007C0FF5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFD1D7FEEBB00066C60 /* Constants.swift */; };
-		172A997B1D7FF2BB007C0FF5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFF1D7FEF2100066C60 /* Extensions.swift */; };
-		172A997C1D7FF2BB007C0FF5 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EED011D7FF20E00066C60 /* Functions.swift */; };
-		172A99851D7FF2CB007C0FF5 /* AlteranMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 172A99841D7FF2CB007C0FF5 /* AlteranMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		172A998C1D7FF2CB007C0FF5 /* AlteranMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172A99821D7FF2CB007C0FF5 /* AlteranMac.framework */; };
-		172A99911D7FF2CB007C0FF5 /* AlteranMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A99901D7FF2CB007C0FF5 /* AlteranMacTests.swift */; };
-		172A99991D7FF2D2007C0FF5 /* Alteran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFB1D7FEE1E00066C60 /* Alteran.swift */; };
-		172A999A1D7FF2D2007C0FF5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFD1D7FEEBB00066C60 /* Constants.swift */; };
-		172A999B1D7FF2D2007C0FF5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFF1D7FEF2100066C60 /* Extensions.swift */; };
-		172A999C1D7FF2D2007C0FF5 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EED011D7FF20E00066C60 /* Functions.swift */; };
-		174EECE51D7FED5D00066C60 /* Alteran.h in Headers */ = {isa = PBXBuildFile; fileRef = 174EECE41D7FED5D00066C60 /* Alteran.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		174EECEC1D7FED5D00066C60 /* Alteran.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174EECE11D7FED5D00066C60 /* Alteran.framework */; };
-		174EECF11D7FED5D00066C60 /* AlteranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECF01D7FED5D00066C60 /* AlteranTests.swift */; };
-		174EECFC1D7FEE1E00066C60 /* Alteran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFB1D7FEE1E00066C60 /* Alteran.swift */; };
-		174EECFE1D7FEEBB00066C60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFD1D7FEEBB00066C60 /* Constants.swift */; };
-		174EED001D7FEF2100066C60 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFF1D7FEF2100066C60 /* Extensions.swift */; };
-		174EED021D7FF20E00066C60 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EED011D7FF20E00066C60 /* Functions.swift */; };
-		174EED0B1D7FF27000066C60 /* AlteranWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 174EED0A1D7FF27000066C60 /* AlteranWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		172A996D1D7FF2B1007C0FF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 174EECD81D7FED5D00066C60 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 172A99611D7FF2B1007C0FF5;
-			remoteInfo = AlteranTV;
-		};
-		172A998D1D7FF2CB007C0FF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 174EECD81D7FED5D00066C60 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 172A99811D7FF2CB007C0FF5;
-			remoteInfo = AlteranMac;
-		};
-		174EECED1D7FED5D00066C60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 174EECD81D7FED5D00066C60 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 174EECE01D7FED5D00066C60;
-			remoteInfo = Alteran;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		172A99621D7FF2B1007C0FF5 /* AlteranTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlteranTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		172A99641D7FF2B1007C0FF5 /* AlteranTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlteranTV.h; sourceTree = "<group>"; };
-		172A99661D7FF2B1007C0FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		172A996B1D7FF2B1007C0FF5 /* AlteranTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlteranTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		172A99701D7FF2B1007C0FF5 /* AlteranTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlteranTVTests.swift; sourceTree = "<group>"; };
-		172A99721D7FF2B1007C0FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		172A99821D7FF2CB007C0FF5 /* AlteranMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlteranMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		172A99841D7FF2CB007C0FF5 /* AlteranMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlteranMac.h; sourceTree = "<group>"; };
-		172A99861D7FF2CB007C0FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		172A998B1D7FF2CB007C0FF5 /* AlteranMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlteranMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		172A99901D7FF2CB007C0FF5 /* AlteranMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlteranMacTests.swift; sourceTree = "<group>"; };
-		172A99921D7FF2CB007C0FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		174EECE11D7FED5D00066C60 /* Alteran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alteran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		174EECE41D7FED5D00066C60 /* Alteran.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alteran.h; sourceTree = "<group>"; };
-		174EECE61D7FED5D00066C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		174EECEB1D7FED5D00066C60 /* AlteranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlteranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		174EECF01D7FED5D00066C60 /* AlteranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlteranTests.swift; sourceTree = "<group>"; };
-		174EECF21D7FED5D00066C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		174EECFB1D7FEE1E00066C60 /* Alteran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alteran.swift; sourceTree = "<group>"; };
-		174EECFD1D7FEEBB00066C60 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		174EECFF1D7FEF2100066C60 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		174EED011D7FF20E00066C60 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		174EED081D7FF27000066C60 /* AlteranWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlteranWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		174EED0A1D7FF27000066C60 /* AlteranWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlteranWatch.h; sourceTree = "<group>"; };
-		174EED0C1D7FF27000066C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		172A995E1D7FF2B1007C0FF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172A99681D7FF2B1007C0FF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172A996C1D7FF2B1007C0FF5 /* AlteranTV.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172A997E1D7FF2CB007C0FF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172A99881D7FF2CB007C0FF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172A998C1D7FF2CB007C0FF5 /* AlteranMac.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EECDD1D7FED5D00066C60 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EECE81D7FED5D00066C60 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				174EECEC1D7FED5D00066C60 /* Alteran.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EED041D7FF27000066C60 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		172A99631D7FF2B1007C0FF5 /* AlteranTV */ = {
-			isa = PBXGroup;
-			children = (
-				172A99641D7FF2B1007C0FF5 /* AlteranTV.h */,
-				172A99661D7FF2B1007C0FF5 /* Info.plist */,
-			);
-			path = AlteranTV;
-			sourceTree = "<group>";
-		};
-		172A996F1D7FF2B1007C0FF5 /* AlteranTVTests */ = {
-			isa = PBXGroup;
-			children = (
-				172A99701D7FF2B1007C0FF5 /* AlteranTVTests.swift */,
-				172A99721D7FF2B1007C0FF5 /* Info.plist */,
-			);
-			path = AlteranTVTests;
-			sourceTree = "<group>";
-		};
-		172A99831D7FF2CB007C0FF5 /* AlteranMac */ = {
-			isa = PBXGroup;
-			children = (
-				172A99841D7FF2CB007C0FF5 /* AlteranMac.h */,
-				172A99861D7FF2CB007C0FF5 /* Info.plist */,
-			);
-			path = AlteranMac;
-			sourceTree = "<group>";
-		};
-		172A998F1D7FF2CB007C0FF5 /* AlteranMacTests */ = {
-			isa = PBXGroup;
-			children = (
-				172A99901D7FF2CB007C0FF5 /* AlteranMacTests.swift */,
-				172A99921D7FF2CB007C0FF5 /* Info.plist */,
-			);
-			path = AlteranMacTests;
-			sourceTree = "<group>";
-		};
-		174EECD71D7FED5D00066C60 = {
-			isa = PBXGroup;
-			children = (
-				174EECE31D7FED5D00066C60 /* Alteran */,
-				174EECEF1D7FED5D00066C60 /* AlteranTests */,
-				174EED091D7FF27000066C60 /* AlteranWatch */,
-				172A99631D7FF2B1007C0FF5 /* AlteranTV */,
-				172A996F1D7FF2B1007C0FF5 /* AlteranTVTests */,
-				172A99831D7FF2CB007C0FF5 /* AlteranMac */,
-				172A998F1D7FF2CB007C0FF5 /* AlteranMacTests */,
-				174EECE21D7FED5D00066C60 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		174EECE21D7FED5D00066C60 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				174EECE11D7FED5D00066C60 /* Alteran.framework */,
-				174EECEB1D7FED5D00066C60 /* AlteranTests.xctest */,
-				174EED081D7FF27000066C60 /* AlteranWatch.framework */,
-				172A99621D7FF2B1007C0FF5 /* AlteranTV.framework */,
-				172A996B1D7FF2B1007C0FF5 /* AlteranTVTests.xctest */,
-				172A99821D7FF2CB007C0FF5 /* AlteranMac.framework */,
-				172A998B1D7FF2CB007C0FF5 /* AlteranMacTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		174EECE31D7FED5D00066C60 /* Alteran */ = {
-			isa = PBXGroup;
-			children = (
-				174EECE41D7FED5D00066C60 /* Alteran.h */,
-				174EECE61D7FED5D00066C60 /* Info.plist */,
-				174EECFB1D7FEE1E00066C60 /* Alteran.swift */,
-				174EECFD1D7FEEBB00066C60 /* Constants.swift */,
-				174EECFF1D7FEF2100066C60 /* Extensions.swift */,
-				174EED011D7FF20E00066C60 /* Functions.swift */,
-			);
-			path = Alteran;
-			sourceTree = "<group>";
-		};
-		174EECEF1D7FED5D00066C60 /* AlteranTests */ = {
-			isa = PBXGroup;
-			children = (
-				174EECF01D7FED5D00066C60 /* AlteranTests.swift */,
-				174EECF21D7FED5D00066C60 /* Info.plist */,
-			);
-			path = AlteranTests;
-			sourceTree = "<group>";
-		};
-		174EED091D7FF27000066C60 /* AlteranWatch */ = {
-			isa = PBXGroup;
-			children = (
-				174EED0A1D7FF27000066C60 /* AlteranWatch.h */,
-				174EED0C1D7FF27000066C60 /* Info.plist */,
-			);
-			path = AlteranWatch;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		172A995F1D7FF2B1007C0FF5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172A99651D7FF2B1007C0FF5 /* AlteranTV.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172A997F1D7FF2CB007C0FF5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172A99851D7FF2CB007C0FF5 /* AlteranMac.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EECDE1D7FED5D00066C60 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				174EECE51D7FED5D00066C60 /* Alteran.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EED051D7FF27000066C60 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				174EED0B1D7FF27000066C60 /* AlteranWatch.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		172A99611D7FF2B1007C0FF5 /* AlteranTV */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 172A99731D7FF2B1007C0FF5 /* Build configuration list for PBXNativeTarget "AlteranTV" */;
-			buildPhases = (
-				172A995D1D7FF2B1007C0FF5 /* Sources */,
-				172A995E1D7FF2B1007C0FF5 /* Frameworks */,
-				172A995F1D7FF2B1007C0FF5 /* Headers */,
-				172A99601D7FF2B1007C0FF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AlteranTV;
-			productName = AlteranTV;
-			productReference = 172A99621D7FF2B1007C0FF5 /* AlteranTV.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		172A996A1D7FF2B1007C0FF5 /* AlteranTVTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 172A99761D7FF2B1007C0FF5 /* Build configuration list for PBXNativeTarget "AlteranTVTests" */;
-			buildPhases = (
-				172A99671D7FF2B1007C0FF5 /* Sources */,
-				172A99681D7FF2B1007C0FF5 /* Frameworks */,
-				172A99691D7FF2B1007C0FF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				172A996E1D7FF2B1007C0FF5 /* PBXTargetDependency */,
-			);
-			name = AlteranTVTests;
-			productName = AlteranTVTests;
-			productReference = 172A996B1D7FF2B1007C0FF5 /* AlteranTVTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		172A99811D7FF2CB007C0FF5 /* AlteranMac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 172A99931D7FF2CB007C0FF5 /* Build configuration list for PBXNativeTarget "AlteranMac" */;
-			buildPhases = (
-				172A997D1D7FF2CB007C0FF5 /* Sources */,
-				172A997E1D7FF2CB007C0FF5 /* Frameworks */,
-				172A997F1D7FF2CB007C0FF5 /* Headers */,
-				172A99801D7FF2CB007C0FF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AlteranMac;
-			productName = AlteranMac;
-			productReference = 172A99821D7FF2CB007C0FF5 /* AlteranMac.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		172A998A1D7FF2CB007C0FF5 /* AlteranMacTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 172A99961D7FF2CB007C0FF5 /* Build configuration list for PBXNativeTarget "AlteranMacTests" */;
-			buildPhases = (
-				172A99871D7FF2CB007C0FF5 /* Sources */,
-				172A99881D7FF2CB007C0FF5 /* Frameworks */,
-				172A99891D7FF2CB007C0FF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				172A998E1D7FF2CB007C0FF5 /* PBXTargetDependency */,
-			);
-			name = AlteranMacTests;
-			productName = AlteranMacTests;
-			productReference = 172A998B1D7FF2CB007C0FF5 /* AlteranMacTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		174EECE01D7FED5D00066C60 /* Alteran */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 174EECF51D7FED5D00066C60 /* Build configuration list for PBXNativeTarget "Alteran" */;
-			buildPhases = (
-				174EECDC1D7FED5D00066C60 /* Sources */,
-				174EECDD1D7FED5D00066C60 /* Frameworks */,
-				174EECDE1D7FED5D00066C60 /* Headers */,
-				174EECDF1D7FED5D00066C60 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Alteran;
-			productName = Alteran;
-			productReference = 174EECE11D7FED5D00066C60 /* Alteran.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		174EECEA1D7FED5D00066C60 /* AlteranTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 174EECF81D7FED5D00066C60 /* Build configuration list for PBXNativeTarget "AlteranTests" */;
-			buildPhases = (
-				174EECE71D7FED5D00066C60 /* Sources */,
-				174EECE81D7FED5D00066C60 /* Frameworks */,
-				174EECE91D7FED5D00066C60 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				174EECEE1D7FED5D00066C60 /* PBXTargetDependency */,
-			);
-			name = AlteranTests;
-			productName = AlteranTests;
-			productReference = 174EECEB1D7FED5D00066C60 /* AlteranTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		174EED071D7FF27000066C60 /* AlteranWatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 174EED0D1D7FF27000066C60 /* Build configuration list for PBXNativeTarget "AlteranWatch" */;
-			buildPhases = (
-				174EED031D7FF27000066C60 /* Sources */,
-				174EED041D7FF27000066C60 /* Frameworks */,
-				174EED051D7FF27000066C60 /* Headers */,
-				174EED061D7FF27000066C60 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AlteranWatch;
-			productName = AlteranWatch;
-			productReference = 174EED081D7FF27000066C60 /* AlteranWatch.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		174EECD81D7FED5D00066C60 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Milot Shala";
-				TargetAttributes = {
-					172A99611D7FF2B1007C0FF5 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					172A996A1D7FF2B1007C0FF5 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					172A99811D7FF2CB007C0FF5 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
-					};
-					172A998A1D7FF2CB007C0FF5 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
-					};
-					174EECE01D7FED5D00066C60 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					174EECEA1D7FED5D00066C60 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					174EED071D7FF27000066C60 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-				};
-			};
-			buildConfigurationList = 174EECDB1D7FED5D00066C60 /* Build configuration list for PBXProject "Alteran" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				sq,
-			);
-			mainGroup = 174EECD71D7FED5D00066C60;
-			productRefGroup = 174EECE21D7FED5D00066C60 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				174EECE01D7FED5D00066C60 /* Alteran */,
-				174EECEA1D7FED5D00066C60 /* AlteranTests */,
-				174EED071D7FF27000066C60 /* AlteranWatch */,
-				172A99611D7FF2B1007C0FF5 /* AlteranTV */,
-				172A996A1D7FF2B1007C0FF5 /* AlteranTVTests */,
-				172A99811D7FF2CB007C0FF5 /* AlteranMac */,
-				172A998A1D7FF2CB007C0FF5 /* AlteranMacTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		172A99601D7FF2B1007C0FF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172A99691D7FF2B1007C0FF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172A99801D7FF2CB007C0FF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172A99891D7FF2CB007C0FF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EECDF1D7FED5D00066C60 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EECE91D7FED5D00066C60 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EED061D7FF27000066C60 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		172A995D1D7FF2B1007C0FF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172A99791D7FF2BB007C0FF5 /* Alteran.swift in Sources */,
-				172A997A1D7FF2BB007C0FF5 /* Constants.swift in Sources */,
-				172A997B1D7FF2BB007C0FF5 /* Extensions.swift in Sources */,
-				172A997C1D7FF2BB007C0FF5 /* Functions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172A99671D7FF2B1007C0FF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172A99711D7FF2B1007C0FF5 /* AlteranTVTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172A997D1D7FF2CB007C0FF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172A99871D7FF2CB007C0FF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172A99991D7FF2D2007C0FF5 /* Alteran.swift in Sources */,
-				172A999A1D7FF2D2007C0FF5 /* Constants.swift in Sources */,
-				172A999B1D7FF2D2007C0FF5 /* Extensions.swift in Sources */,
-				172A999C1D7FF2D2007C0FF5 /* Functions.swift in Sources */,
-				172A99911D7FF2CB007C0FF5 /* AlteranMacTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EECDC1D7FED5D00066C60 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				174EECFC1D7FEE1E00066C60 /* Alteran.swift in Sources */,
-				174EED001D7FEF2100066C60 /* Extensions.swift in Sources */,
-				174EECFE1D7FEEBB00066C60 /* Constants.swift in Sources */,
-				174EED021D7FF20E00066C60 /* Functions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EECE71D7FED5D00066C60 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				174EECF11D7FED5D00066C60 /* AlteranTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174EED031D7FF27000066C60 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172A99591D7FF29B007C0FF5 /* Alteran.swift in Sources */,
-				172A995A1D7FF29B007C0FF5 /* Constants.swift in Sources */,
-				172A995B1D7FF29B007C0FF5 /* Extensions.swift in Sources */,
-				172A995C1D7FF29B007C0FF5 /* Functions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		172A996E1D7FF2B1007C0FF5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 172A99611D7FF2B1007C0FF5 /* AlteranTV */;
-			targetProxy = 172A996D1D7FF2B1007C0FF5 /* PBXContainerItemProxy */;
-		};
-		172A998E1D7FF2CB007C0FF5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 172A99811D7FF2CB007C0FF5 /* AlteranMac */;
-			targetProxy = 172A998D1D7FF2CB007C0FF5 /* PBXContainerItemProxy */;
-		};
-		174EECEE1D7FED5D00066C60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 174EECE01D7FED5D00066C60 /* Alteran */;
-			targetProxy = 174EECED1D7FED5D00066C60 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		172A99741D7FF2B1007C0FF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AlteranTV/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Debug;
-		};
-		172A99751D7FF2B1007C0FF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AlteranTV/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Release;
-		};
-		172A99771D7FF2B1007C0FF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = AlteranTVTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranTVTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Debug;
-		};
-		172A99781D7FF2B1007C0FF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = AlteranTVTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranTVTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Release;
-		};
-		172A99941D7FF2CB007C0FF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = AlteranMac/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		172A99951D7FF2CB007C0FF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = AlteranMac/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		172A99971D7FF2CB007C0FF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AlteranMacTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranMacTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		172A99981D7FF2CB007C0FF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AlteranMacTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranMacTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		174EECF31D7FED5D00066C60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		174EECF41D7FED5D00066C60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		174EECF61D7FED5D00066C60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Alteran/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.Alteran;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		174EECF71D7FED5D00066C60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Alteran/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.Alteran;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		174EECF91D7FED5D00066C60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = AlteranTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		174EECFA1D7FED5D00066C60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = AlteranTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		174EED0E1D7FF27000066C60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AlteranWatch/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranWatch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		174EED0F1D7FF27000066C60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AlteranWatch/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranWatch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		172A99731D7FF2B1007C0FF5 /* Build configuration list for PBXNativeTarget "AlteranTV" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				172A99741D7FF2B1007C0FF5 /* Debug */,
-				172A99751D7FF2B1007C0FF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		172A99761D7FF2B1007C0FF5 /* Build configuration list for PBXNativeTarget "AlteranTVTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				172A99771D7FF2B1007C0FF5 /* Debug */,
-				172A99781D7FF2B1007C0FF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		172A99931D7FF2CB007C0FF5 /* Build configuration list for PBXNativeTarget "AlteranMac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				172A99941D7FF2CB007C0FF5 /* Debug */,
-				172A99951D7FF2CB007C0FF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		172A99961D7FF2CB007C0FF5 /* Build configuration list for PBXNativeTarget "AlteranMacTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				172A99971D7FF2CB007C0FF5 /* Debug */,
-				172A99981D7FF2CB007C0FF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		174EECDB1D7FED5D00066C60 /* Build configuration list for PBXProject "Alteran" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				174EECF31D7FED5D00066C60 /* Debug */,
-				174EECF41D7FED5D00066C60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		174EECF51D7FED5D00066C60 /* Build configuration list for PBXNativeTarget "Alteran" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				174EECF61D7FED5D00066C60 /* Debug */,
-				174EECF71D7FED5D00066C60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		174EECF81D7FED5D00066C60 /* Build configuration list for PBXNativeTarget "AlteranTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				174EECF91D7FED5D00066C60 /* Debug */,
-				174EECFA1D7FED5D00066C60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		174EED0D1D7FF27000066C60 /* Build configuration list for PBXNativeTarget "AlteranWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				174EED0E1D7FF27000066C60 /* Debug */,
-				174EED0F1D7FF27000066C60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 174EECD81D7FED5D00066C60 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>172A99591D7FF29B007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFB1D7FEE1E00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A995A1D7FF29B007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFD1D7FEEBB00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A995B1D7FF29B007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFF1D7FEF2100066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A995C1D7FF29B007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EED011D7FF20E00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A995D1D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>172A99791D7FF2BB007C0FF5</string>
+				<string>172A997A1D7FF2BB007C0FF5</string>
+				<string>172A997B1D7FF2BB007C0FF5</string>
+				<string>172A997C1D7FF2BB007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A995E1D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A995F1D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>172A99651D7FF2B1007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A99601D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A99611D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>172A99731D7FF2B1007C0FF5</string>
+			<key>buildPhases</key>
+			<array>
+				<string>172A995D1D7FF2B1007C0FF5</string>
+				<string>172A995E1D7FF2B1007C0FF5</string>
+				<string>172A995F1D7FF2B1007C0FF5</string>
+				<string>172A99601D7FF2B1007C0FF5</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>AlteranTV</string>
+			<key>productName</key>
+			<string>AlteranTV</string>
+			<key>productReference</key>
+			<string>172A99621D7FF2B1007C0FF5</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>172A99621D7FF2B1007C0FF5</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>AlteranTV.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>172A99631D7FF2B1007C0FF5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>172A99641D7FF2B1007C0FF5</string>
+				<string>172A99661D7FF2B1007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>AlteranTV</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99641D7FF2B1007C0FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AlteranTV.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99651D7FF2B1007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>172A99641D7FF2B1007C0FF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>172A99661D7FF2B1007C0FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99671D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>172A99711D7FF2B1007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A99681D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>172A996C1D7FF2B1007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A99691D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A996A1D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>172A99761D7FF2B1007C0FF5</string>
+			<key>buildPhases</key>
+			<array>
+				<string>172A99671D7FF2B1007C0FF5</string>
+				<string>172A99681D7FF2B1007C0FF5</string>
+				<string>172A99691D7FF2B1007C0FF5</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>172A996E1D7FF2B1007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>AlteranTVTests</string>
+			<key>productName</key>
+			<string>AlteranTVTests</string>
+			<key>productReference</key>
+			<string>172A996B1D7FF2B1007C0FF5</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>172A996B1D7FF2B1007C0FF5</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>AlteranTVTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>172A996C1D7FF2B1007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>172A99621D7FF2B1007C0FF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A996D1D7FF2B1007C0FF5</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>174EECD81D7FED5D00066C60</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>172A99611D7FF2B1007C0FF5</string>
+			<key>remoteInfo</key>
+			<string>AlteranTV</string>
+		</dict>
+		<key>172A996E1D7FF2B1007C0FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>172A99611D7FF2B1007C0FF5</string>
+			<key>targetProxy</key>
+			<string>172A996D1D7FF2B1007C0FF5</string>
+		</dict>
+		<key>172A996F1D7FF2B1007C0FF5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>172A99701D7FF2B1007C0FF5</string>
+				<string>172A99721D7FF2B1007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>AlteranTVTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99701D7FF2B1007C0FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AlteranTVTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99711D7FF2B1007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>172A99701D7FF2B1007C0FF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A99721D7FF2B1007C0FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99731D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>172A99741D7FF2B1007C0FF5</string>
+				<string>172A99751D7FF2B1007C0FF5</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>172A99741D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
+				<string></string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranTV/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranTV</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>appletvos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>3</string>
+				<key>TVOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>172A99751D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
+				<string></string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranTV/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranTV</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>appletvos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>3</string>
+				<key>TVOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>172A99761D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>172A99771D7FF2B1007C0FF5</string>
+				<string>172A99781D7FF2B1007C0FF5</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>172A99771D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranTVTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranTVTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>appletvos</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TVOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>172A99781D7FF2B1007C0FF5</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranTVTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranTVTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>appletvos</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TVOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>172A99791D7FF2BB007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFB1D7FEE1E00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A997A1D7FF2BB007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFD1D7FEEBB00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A997B1D7FF2BB007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFF1D7FEF2100066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A997C1D7FF2BB007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EED011D7FF20E00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A997D1D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A997E1D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A997F1D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>172A99851D7FF2CB007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A99801D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A99811D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>172A99931D7FF2CB007C0FF5</string>
+			<key>buildPhases</key>
+			<array>
+				<string>172A997D1D7FF2CB007C0FF5</string>
+				<string>172A997E1D7FF2CB007C0FF5</string>
+				<string>172A997F1D7FF2CB007C0FF5</string>
+				<string>172A99801D7FF2CB007C0FF5</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>AlteranMac</string>
+			<key>productName</key>
+			<string>AlteranMac</string>
+			<key>productReference</key>
+			<string>172A99821D7FF2CB007C0FF5</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>172A99821D7FF2CB007C0FF5</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>AlteranMac.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>172A99831D7FF2CB007C0FF5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>172A99841D7FF2CB007C0FF5</string>
+				<string>172A99861D7FF2CB007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>AlteranMac</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99841D7FF2CB007C0FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AlteranMac.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99851D7FF2CB007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>172A99841D7FF2CB007C0FF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>172A99861D7FF2CB007C0FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99871D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>172A99991D7FF2D2007C0FF5</string>
+				<string>172A999A1D7FF2D2007C0FF5</string>
+				<string>172A999B1D7FF2D2007C0FF5</string>
+				<string>172A999C1D7FF2D2007C0FF5</string>
+				<string>172A99911D7FF2CB007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A99881D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>172A998C1D7FF2CB007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A99891D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>172A998A1D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>172A99961D7FF2CB007C0FF5</string>
+			<key>buildPhases</key>
+			<array>
+				<string>172A99871D7FF2CB007C0FF5</string>
+				<string>172A99881D7FF2CB007C0FF5</string>
+				<string>172A99891D7FF2CB007C0FF5</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>172A998E1D7FF2CB007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>AlteranMacTests</string>
+			<key>productName</key>
+			<string>AlteranMacTests</string>
+			<key>productReference</key>
+			<string>172A998B1D7FF2CB007C0FF5</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>172A998B1D7FF2CB007C0FF5</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>AlteranMacTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>172A998C1D7FF2CB007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>172A99821D7FF2CB007C0FF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A998D1D7FF2CB007C0FF5</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>174EECD81D7FED5D00066C60</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>172A99811D7FF2CB007C0FF5</string>
+			<key>remoteInfo</key>
+			<string>AlteranMac</string>
+		</dict>
+		<key>172A998E1D7FF2CB007C0FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>172A99811D7FF2CB007C0FF5</string>
+			<key>targetProxy</key>
+			<string>172A998D1D7FF2CB007C0FF5</string>
+		</dict>
+		<key>172A998F1D7FF2CB007C0FF5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>172A99901D7FF2CB007C0FF5</string>
+				<string>172A99921D7FF2CB007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>AlteranMacTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99901D7FF2CB007C0FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AlteranMacTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99911D7FF2CB007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>172A99901D7FF2CB007C0FF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A99921D7FF2CB007C0FF5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>172A99931D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>172A99941D7FF2CB007C0FF5</string>
+				<string>172A99951D7FF2CB007C0FF5</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>172A99941D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string></string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>FRAMEWORK_VERSION</key>
+				<string>A</string>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranMac/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/../Frameworks @loader_path/Frameworks</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.11</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranMac</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>172A99951D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string></string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>FRAMEWORK_VERSION</key>
+				<string>A</string>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranMac/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/../Frameworks @loader_path/Frameworks</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.11</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranMac</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>172A99961D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>172A99971D7FF2CB007C0FF5</string>
+				<string>172A99981D7FF2CB007C0FF5</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>172A99971D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>-</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranMacTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.11</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranMacTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>172A99981D7FF2CB007C0FF5</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>-</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranMacTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.11</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranMacTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>172A99991D7FF2D2007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFB1D7FEE1E00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A999A1D7FF2D2007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFD1D7FEEBB00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A999B1D7FF2D2007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFF1D7FEF2100066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>172A999C1D7FF2D2007C0FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EED011D7FF20E00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>174EECD71D7FED5D00066C60</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>174EECE31D7FED5D00066C60</string>
+				<string>174EECEF1D7FED5D00066C60</string>
+				<string>174EED091D7FF27000066C60</string>
+				<string>172A99631D7FF2B1007C0FF5</string>
+				<string>172A996F1D7FF2B1007C0FF5</string>
+				<string>172A99831D7FF2CB007C0FF5</string>
+				<string>172A998F1D7FF2CB007C0FF5</string>
+				<string>174EECE21D7FED5D00066C60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EECD81D7FED5D00066C60</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0800</string>
+				<key>LastUpgradeCheck</key>
+				<string>0800</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Milot Shala</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>172A99611D7FF2B1007C0FF5</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+					</dict>
+					<key>172A996A1D7FF2B1007C0FF5</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+					</dict>
+					<key>172A99811D7FF2CB007C0FF5</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>LastSwiftMigration</key>
+						<string>0800</string>
+					</dict>
+					<key>172A998A1D7FF2CB007C0FF5</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>LastSwiftMigration</key>
+						<string>0800</string>
+					</dict>
+					<key>174EECE01D7FED5D00066C60</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+					</dict>
+					<key>174EECEA1D7FED5D00066C60</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+					</dict>
+					<key>174EED071D7FF27000066C60</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>174EECDB1D7FED5D00066C60</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>sq</string>
+			</array>
+			<key>mainGroup</key>
+			<string>174EECD71D7FED5D00066C60</string>
+			<key>productRefGroup</key>
+			<string>174EECE21D7FED5D00066C60</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>174EECE01D7FED5D00066C60</string>
+				<string>174EECEA1D7FED5D00066C60</string>
+				<string>174EED071D7FF27000066C60</string>
+				<string>172A99611D7FF2B1007C0FF5</string>
+				<string>172A996A1D7FF2B1007C0FF5</string>
+				<string>172A99811D7FF2CB007C0FF5</string>
+				<string>172A998A1D7FF2CB007C0FF5</string>
+			</array>
+		</dict>
+		<key>174EECDB1D7FED5D00066C60</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>174EECF31D7FED5D00066C60</string>
+				<string>174EECF41D7FED5D00066C60</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>174EECDC1D7FED5D00066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>174EECFC1D7FEE1E00066C60</string>
+				<string>174EED001D7FEF2100066C60</string>
+				<string>174EECFE1D7FEEBB00066C60</string>
+				<string>174EED021D7FF20E00066C60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EECDD1D7FED5D00066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EECDE1D7FED5D00066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>174EECE51D7FED5D00066C60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EECDF1D7FED5D00066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EECE01D7FED5D00066C60</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>174EECF51D7FED5D00066C60</string>
+			<key>buildPhases</key>
+			<array>
+				<string>174EECDC1D7FED5D00066C60</string>
+				<string>174EECDD1D7FED5D00066C60</string>
+				<string>174EECDE1D7FED5D00066C60</string>
+				<string>174EECDF1D7FED5D00066C60</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Alteran</string>
+			<key>productName</key>
+			<string>Alteran</string>
+			<key>productReference</key>
+			<string>174EECE11D7FED5D00066C60</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>174EECE11D7FED5D00066C60</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Alteran.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>174EECE21D7FED5D00066C60</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>174EECE11D7FED5D00066C60</string>
+				<string>174EECEB1D7FED5D00066C60</string>
+				<string>174EED081D7FF27000066C60</string>
+				<string>172A99621D7FF2B1007C0FF5</string>
+				<string>172A996B1D7FF2B1007C0FF5</string>
+				<string>172A99821D7FF2CB007C0FF5</string>
+				<string>172A998B1D7FF2CB007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EECE31D7FED5D00066C60</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>174EECE41D7FED5D00066C60</string>
+				<string>174EECE61D7FED5D00066C60</string>
+				<string>174EECFB1D7FEE1E00066C60</string>
+				<string>174EECFD1D7FEEBB00066C60</string>
+				<string>174EECFF1D7FEF2100066C60</string>
+				<string>174EED011D7FF20E00066C60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Alteran</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EECE41D7FED5D00066C60</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Alteran.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EECE51D7FED5D00066C60</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECE41D7FED5D00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>174EECE61D7FED5D00066C60</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EECE71D7FED5D00066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>174EECF11D7FED5D00066C60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EECE81D7FED5D00066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>174EECEC1D7FED5D00066C60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EECE91D7FED5D00066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EECEA1D7FED5D00066C60</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>174EECF81D7FED5D00066C60</string>
+			<key>buildPhases</key>
+			<array>
+				<string>174EECE71D7FED5D00066C60</string>
+				<string>174EECE81D7FED5D00066C60</string>
+				<string>174EECE91D7FED5D00066C60</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>174EECEE1D7FED5D00066C60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>AlteranTests</string>
+			<key>productName</key>
+			<string>AlteranTests</string>
+			<key>productReference</key>
+			<string>174EECEB1D7FED5D00066C60</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>174EECEB1D7FED5D00066C60</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>AlteranTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>174EECEC1D7FED5D00066C60</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECE11D7FED5D00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>174EECED1D7FED5D00066C60</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>174EECD81D7FED5D00066C60</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>174EECE01D7FED5D00066C60</string>
+			<key>remoteInfo</key>
+			<string>Alteran</string>
+		</dict>
+		<key>174EECEE1D7FED5D00066C60</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>174EECE01D7FED5D00066C60</string>
+			<key>targetProxy</key>
+			<string>174EECED1D7FED5D00066C60</string>
+		</dict>
+		<key>174EECEF1D7FED5D00066C60</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>174EECF01D7FED5D00066C60</string>
+				<string>174EECF21D7FED5D00066C60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>AlteranTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EECF01D7FED5D00066C60</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AlteranTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EECF11D7FED5D00066C60</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECF01D7FED5D00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>174EECF21D7FED5D00066C60</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EECF31D7FED5D00066C60</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED</key>
+				<string>YES</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>174EECF41D7FED5D00066C60</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED</key>
+				<string>YES</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Owholemodule</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>174EECF51D7FED5D00066C60</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>174EECF61D7FED5D00066C60</string>
+				<string>174EECF71D7FED5D00066C60</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>174EECF61D7FED5D00066C60</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string></string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Alteran/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.Alteran</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>174EECF71D7FED5D00066C60</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string></string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Alteran/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.Alteran</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>174EECF81D7FED5D00066C60</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>174EECF91D7FED5D00066C60</string>
+				<string>174EECFA1D7FED5D00066C60</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>174EECF91D7FED5D00066C60</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>174EECFA1D7FED5D00066C60</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>174EECFB1D7FEE1E00066C60</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Alteran.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EECFC1D7FEE1E00066C60</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFB1D7FEE1E00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>174EECFD1D7FEEBB00066C60</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Constants.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EECFE1D7FEEBB00066C60</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFD1D7FEEBB00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>174EECFF1D7FEF2100066C60</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Extensions.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EED001D7FEF2100066C60</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EECFF1D7FEF2100066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>174EED011D7FF20E00066C60</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Functions.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EED021D7FF20E00066C60</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EED011D7FF20E00066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>174EED031D7FF27000066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>172A99591D7FF29B007C0FF5</string>
+				<string>172A995A1D7FF29B007C0FF5</string>
+				<string>172A995B1D7FF29B007C0FF5</string>
+				<string>172A995C1D7FF29B007C0FF5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EED041D7FF27000066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EED051D7FF27000066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>174EED0B1D7FF27000066C60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EED061D7FF27000066C60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>174EED071D7FF27000066C60</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>174EED0D1D7FF27000066C60</string>
+			<key>buildPhases</key>
+			<array>
+				<string>174EED031D7FF27000066C60</string>
+				<string>174EED041D7FF27000066C60</string>
+				<string>174EED051D7FF27000066C60</string>
+				<string>174EED061D7FF27000066C60</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>AlteranWatch</string>
+			<key>productName</key>
+			<string>AlteranWatch</string>
+			<key>productReference</key>
+			<string>174EED081D7FF27000066C60</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>174EED081D7FF27000066C60</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>AlteranWatch.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>174EED091D7FF27000066C60</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>174EED0A1D7FF27000066C60</string>
+				<string>174EED0C1D7FF27000066C60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>AlteranWatch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EED0A1D7FF27000066C60</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AlteranWatch.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EED0B1D7FF27000066C60</key>
+		<dict>
+			<key>fileRef</key>
+			<string>174EED0A1D7FF27000066C60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>174EED0C1D7FF27000066C60</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>174EED0D1D7FF27000066C60</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>174EED0E1D7FF27000066C60</string>
+				<string>174EED0F1D7FF27000066C60</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>174EED0E1D7FF27000066C60</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+				<string></string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranWatch/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranWatch</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>2.2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>174EED0F1D7FF27000066C60</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+				<string></string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>INFOPLIST_FILE</key>
+				<string>AlteranWatch/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>io.milot.AlteranWatch</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>2.2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>174EECD81D7FED5D00066C60</string>
+</dict>
+</plist>
