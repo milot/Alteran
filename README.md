@@ -40,4 +40,25 @@ Simply copy the Alteran.framework on your project and you're good to go.
 
 ## Usage
 
-Coming soon.
+Usage is quite simple:
+
+```Swift
+import Alteran
+
+// Every string should contain .alteranLocalized() in order to be localized properly
+lblCurrentLanguage.text = "Current Language:".alteranLocalized()
+```
+
+Alteran is built around class functions, therefore no instance is required, it has functions such as **availableLanguages()** that parses the containing languages from Localizable.strings file, also it includes **displayNameFor(language:)** function to grab the current display name.
+
+You can interate through available languages and get their display names:
+
+```Swift
+for language in Alteran.availableLanguages() {
+			
+	let displayName = Alteran.displayNameFor(language: language)
+	print(displayName)
+}
+```
+
+In the example project there is an extension file that includes handy extensions for _uppercaseFirst_ and skipping items at index.
