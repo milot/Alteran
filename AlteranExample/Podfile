@@ -1,0 +1,13 @@
+use_frameworks!
+
+def imports
+  pod 'Alteran', :path => '../'
+end
+
+target 'AlteranExample' do
+    imports
+end
+
+target 'AlteranExampleTests' do
+    imports
+end

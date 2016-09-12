@@ -1,0 +1,6 @@
+framework module Alteran {
+  umbrella header "Alteran-umbrella.h"
+
+  export *
+  module * { export * }
+}
