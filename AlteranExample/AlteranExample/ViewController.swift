@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 	
 	func changeViewText() {
 		lblCurrentLanguage.text = "Current Language:".alteranLocalized()
-		lblActualLanguageWording.text = Alteran.displayNameFor(language: Alteran.currentLanguage())
+		lblActualLanguageWording.text = Alteran.displayNameFor(language: Alteran.currentLanguage()).uppercaseFirst
 		btnSwitchLanguage.setTitle("Switch".alteranLocalized(), for: .normal)
 	}
 

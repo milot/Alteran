@@ -1,0 +1,14 @@
+PODS:
+  - Alteran (1.0)
+
+DEPENDENCIES:
+  - Alteran (from `../`)
+
+EXTERNAL SOURCES:
+  Alteran:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alteran: d113a1e26ea0f2b949e9af3253adad785c96f88d
+
+COCOAPODS: 0.39.0

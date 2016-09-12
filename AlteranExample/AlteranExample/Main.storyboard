@@ -21,7 +21,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Language:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sh7-Ph-k0P">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="hie-GL-sGD"/>
+                                    <constraint firstAttribute="height" constant="63" id="RCR-oa-w7i"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="27"/>
                                 <color key="textColor" red="0.049732752140000003" green="0.070522896949999997" blue="0.53890150790000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -29,17 +29,17 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIf-Vl-8K2">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="Q5b-8l-p8Q"/>
+                                    <constraint firstAttribute="height" constant="63" id="GvS-oM-JWm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="27"/>
                                 <color key="textColor" red="0.0497327521443367" green="0.070522896945476532" blue="0.53890150785446167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IE0-35-9JK">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IE0-35-9JK">
                                 <color key="backgroundColor" red="0.049732752140000003" green="0.070522896949999997" blue="0.53890150790000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="4W8-gk-lcr"/>
-                                    <constraint firstAttribute="height" constant="100" id="w25-jW-qAL"/>
+                                    <constraint firstAttribute="width" constant="185" id="Kw7-Z1-W1V"/>
+                                    <constraint firstAttribute="height" constant="53" id="qCS-fM-Ipy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Switch">
@@ -50,17 +50,17 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.17719945311546326" green="0.20942327380180359" blue="0.95709127187728882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.17719945309999999" green="0.2094232738" blue="0.95709127189999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="trailing" secondItem="hIf-Vl-8K2" secondAttribute="trailing" id="0tk-Aw-nCP"/>
-                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Bqe-Bf-48j"/>
-                            <constraint firstItem="hIf-Vl-8K2" firstAttribute="top" secondItem="Sh7-Ph-k0P" secondAttribute="bottom" constant="8" symbolic="YES" id="Grk-Pu-G5i"/>
-                            <constraint firstItem="IE0-35-9JK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WQK-xj-7yp"/>
-                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dA0-n5-Ozb"/>
-                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="leading" secondItem="hIf-Vl-8K2" secondAttribute="leading" id="di6-6u-ONg"/>
-                            <constraint firstItem="hIf-Vl-8K2" firstAttribute="centerX" secondItem="IE0-35-9JK" secondAttribute="centerX" id="gd8-My-mf6"/>
-                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iWk-Ak-4Ku"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IE0-35-9JK" secondAttribute="bottom" constant="284" id="wq9-nB-LNC"/>
+                            <constraint firstItem="hIf-Vl-8K2" firstAttribute="centerX" secondItem="IE0-35-9JK" secondAttribute="centerX" id="2ay-fl-6DI"/>
+                            <constraint firstItem="IE0-35-9JK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Cmj-qg-ft5"/>
+                            <constraint firstItem="hIf-Vl-8K2" firstAttribute="top" secondItem="Sh7-Ph-k0P" secondAttribute="bottom" constant="8" symbolic="YES" id="GVO-uz-v13"/>
+                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="O10-vF-QGu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IE0-35-9JK" secondAttribute="bottom" constant="307" id="PyS-4x-VJu"/>
+                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="arO-0E-B5t"/>
+                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="trailing" secondItem="hIf-Vl-8K2" secondAttribute="trailing" id="b6q-Ah-tj4"/>
+                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="leading" secondItem="hIf-Vl-8K2" secondAttribute="leading" id="nUi-0X-wky"/>
+                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="tHK-OQ-EWT"/>
                         </constraints>
                     </view>
                     <connections>

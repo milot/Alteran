@@ -1,0 +1,26 @@
+{
+  "name": "Alteran",
+  "platforms": {
+    "ios": "8.0",
+    "osx": "10.7",
+    "watchos": "2.0",
+    "tvos": "9.0"
+  },
+  "summary": "Alteran is a small localization framework that greatly improves how you deal with internationalization on Apple platforms.",
+  "requires_arc": true,
+  "version": "1.0",
+  "homepage": "http://milot.io/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "Milot Shala": "milot.shala@gmail.com"
+  },
+  "social_media_url": "http://twitter.com/milot",
+  "source": {
+    "git": "https://github.com/milot/Alteran.git",
+    "tag": "1.0"
+  },
+  "source_files": "AlteranLocalization/Alteran/*.{swift}"
+}

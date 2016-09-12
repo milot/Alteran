@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AA844A981CA2FC341094C96213E97C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		33CE55172ECCD91D146D72FDFF9C7DA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3B2F45FE4A53F0831AE976FF4F781F25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA37334B8BEB61425846CE1DAEE1D9 /* Constants.swift */; };
+		56131A126811A30FA423C2D9873F35DF /* Pods-AlteranExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA961F30EADC10813E6A5E561111F33C /* Pods-AlteranExampleTests-dummy.m */; };
+		909637A7B004F9F9D5D3A0587F03AEDD /* Alteran-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE40CD1009B2EA498894B5DDDA858F2 /* Alteran-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E3E5ED9BD258F0D3156067F3375F2F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A291892316655F73133B229059B2C640 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC0501AF362BF8991B42F4DEDBD23FF /* Extensions.swift */; };
+		C8980F0AE4C101C1E0A500865C6668C4 /* Alteran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F428D36F459747083D88209F84A95F4 /* Alteran.swift */; };
+		CCED9E9511D184845CBC7FD4A802DD39 /* Pods-AlteranExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E99D3ECF8635A854F55E63C6336626E /* Pods-AlteranExample-dummy.m */; };
+		D5C2F96A00A71B2C6F81DEE835260A29 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF0D63DDC75D53D572554F608BE1EBA /* Functions.swift */; };
+		DC88F8BC4AA309FC57C3DCCFE49A75D5 /* Pods-AlteranExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F937777D103D18D86F1413756BB3D2 /* Pods-AlteranExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDED390A0D90D90B2053447F81949DAF /* Alteran-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74193D5114D981B78BB93BD399F77777 /* Alteran-dummy.m */; };
+		EFDDA06FB567B6C5C133BD10C80A863F /* Pods-AlteranExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F6CECB67307D7EF76882C49CA7F3EF /* Pods-AlteranExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BDD76BD638ADAB131C4FA454489E70B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2A55F3CF09AB1B40D4CC38E1D4E225;
+			remoteInfo = Alteran;
+		};
+		8A372A58ACE0FC8C9E3EAD5E05C57D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2A55F3CF09AB1B40D4CC38E1D4E225;
+			remoteInfo = Alteran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA51DD3E026B4611F3D2FEA43C8D73B /* Alteran-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alteran-prefix.pch"; sourceTree = "<group>"; };
+		12EC581B0D2585C9AB3F00947E262BA5 /* Pods-AlteranExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlteranExample-frameworks.sh"; sourceTree = "<group>"; };
+		18D9CC6B63B877A2A0CF16FC4D1561F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE40CD1009B2EA498894B5DDDA858F2 /* Alteran-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alteran-umbrella.h"; sourceTree = "<group>"; };
+		1DDFEF40AC5FA3E4238C74ED752BED76 /* Alteran.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alteran.modulemap; sourceTree = "<group>"; };
+		2A78AEC679692CB65FF81EE20762D53B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA771DA6D10B32024BC6CB9EA405E5F /* Pods_AlteranExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlteranExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E10217252ACDF3819239F66D488FF28 /* Pods-AlteranExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlteranExampleTests-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		454EBAA4DA50E26D9E31A7484F5E734D /* Pods-AlteranExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlteranExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		51D64C53DB74AD658C9A94E80EFD4373 /* Pods-AlteranExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlteranExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5611E8F036A73F1E7FA5980DE6DDADEB /* Pods-AlteranExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlteranExample.release.xcconfig"; sourceTree = "<group>"; };
+		5D3EF3BE1F6FE181F70389C89C41445B /* Pods-AlteranExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlteranExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		62C977D9A475B5B9AD629EB2ED16FC8C /* Pods-AlteranExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlteranExample-resources.sh"; sourceTree = "<group>"; };
+		6BCC8D31282A85A5BA8F5C447E23D726 /* Pods-AlteranExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AlteranExample.modulemap"; sourceTree = "<group>"; };
+		6E99D3ECF8635A854F55E63C6336626E /* Pods-AlteranExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlteranExample-dummy.m"; sourceTree = "<group>"; };
+		71CA37334B8BEB61425846CE1DAEE1D9 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		74193D5114D981B78BB93BD399F77777 /* Alteran-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alteran-dummy.m"; sourceTree = "<group>"; };
+		7F428D36F459747083D88209F84A95F4 /* Alteran.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alteran.swift; sourceTree = "<group>"; };
+		85F937777D103D18D86F1413756BB3D2 /* Pods-AlteranExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlteranExample-umbrella.h"; sourceTree = "<group>"; };
+		A2F2F18F28D11BA588B5FA0E5812AB06 /* Pods-AlteranExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AlteranExampleTests.modulemap"; sourceTree = "<group>"; };
+		A8B948318CAB10DB6F645388434A1DD8 /* Pods-AlteranExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlteranExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		AAC0501AF362BF8991B42F4DEDBD23FF /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B6503D2BF9253EC591D982E8CCA9A16F /* Alteran.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alteran.xcconfig; sourceTree = "<group>"; };
+		B8F6CECB67307D7EF76882C49CA7F3EF /* Pods-AlteranExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlteranExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA961F30EADC10813E6A5E561111F33C /* Pods-AlteranExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlteranExampleTests-dummy.m"; sourceTree = "<group>"; };
+		BBF0D63DDC75D53D572554F608BE1EBA /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		BEC4692441A43EF110273F3C671DC649 /* Pods_AlteranExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlteranExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBD6419D43291388629AB3B41D3DF02 /* Pods-AlteranExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlteranExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C004263C31E65F80AEEE477A72BD356B /* Pods-AlteranExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlteranExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C57EF67BBCACFAE2947AA3FD84B70777 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0415D46E525F15E8F22B234FC80799C /* Pods-AlteranExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlteranExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3A1F803E1808B0ACC922D31D79E90ED /* Alteran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alteran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C4F5BADB76FCC3895A8FF2570599CF /* Pods-AlteranExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlteranExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15F739EBAD5967D6BB27D9665495110B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA844A981CA2FC341094C96213E97C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E57CC65E943DED56EA4843B82F180B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3E5ED9BD258F0D3156067F3375F2F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D689B4AA4248301854593686A9E3FBA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CE55172ECCD91D146D72FDFF9C7DA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4B3D74840C06076285404A0B46ED2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A1F803E1808B0ACC922D31D79E90ED /* Alteran.framework */,
+				BEC4692441A43EF110273F3C671DC649 /* Pods_AlteranExample.framework */,
+				2DA771DA6D10B32024BC6CB9EA405E5F /* Pods_AlteranExampleTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3287429AD72589726F646565C0322C49 /* Pods-AlteranExample */ = {
+			isa = PBXGroup;
+			children = (
+				C57EF67BBCACFAE2947AA3FD84B70777 /* Info.plist */,
+				6BCC8D31282A85A5BA8F5C447E23D726 /* Pods-AlteranExample.modulemap */,
+				F0415D46E525F15E8F22B234FC80799C /* Pods-AlteranExample-acknowledgements.markdown */,
+				5D3EF3BE1F6FE181F70389C89C41445B /* Pods-AlteranExample-acknowledgements.plist */,
+				6E99D3ECF8635A854F55E63C6336626E /* Pods-AlteranExample-dummy.m */,
+				12EC581B0D2585C9AB3F00947E262BA5 /* Pods-AlteranExample-frameworks.sh */,
+				62C977D9A475B5B9AD629EB2ED16FC8C /* Pods-AlteranExample-resources.sh */,
+				85F937777D103D18D86F1413756BB3D2 /* Pods-AlteranExample-umbrella.h */,
+				51D64C53DB74AD658C9A94E80EFD4373 /* Pods-AlteranExample.debug.xcconfig */,
+				5611E8F036A73F1E7FA5980DE6DDADEB /* Pods-AlteranExample.release.xcconfig */,
+			);
+			name = "Pods-AlteranExample";
+			path = "Target Support Files/Pods-AlteranExample";
+			sourceTree = "<group>";
+		};
+		4F9E2C15ADF1518222B738A9B272E798 /* Alteran */ = {
+			isa = PBXGroup;
+			children = (
+				7F428D36F459747083D88209F84A95F4 /* Alteran.swift */,
+				71CA37334B8BEB61425846CE1DAEE1D9 /* Constants.swift */,
+				AAC0501AF362BF8991B42F4DEDBD23FF /* Extensions.swift */,
+				BBF0D63DDC75D53D572554F608BE1EBA /* Functions.swift */,
+			);
+			path = Alteran;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				89A5D5BE8E2A683863A561AFBE635686 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0E4B3D74840C06076285404A0B46ED2E /* Products */,
+				BD57D3B9288764A06A3158687FC8EF11 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85CD2EF5529B08912C33B13E365D31A0 /* AlteranLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				4F9E2C15ADF1518222B738A9B272E798 /* Alteran */,
+			);
+			path = AlteranLocalization;
+			sourceTree = "<group>";
+		};
+		89A5D5BE8E2A683863A561AFBE635686 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF0ECE9CB1E33CB5CA6998996B5EB7DF /* Alteran */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AEEF6DB8D166AA06DFAE24E15B9CCD47 /* Pods-AlteranExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A78AEC679692CB65FF81EE20762D53B /* Info.plist */,
+				A2F2F18F28D11BA588B5FA0E5812AB06 /* Pods-AlteranExampleTests.modulemap */,
+				BFBD6419D43291388629AB3B41D3DF02 /* Pods-AlteranExampleTests-acknowledgements.markdown */,
+				C004263C31E65F80AEEE477A72BD356B /* Pods-AlteranExampleTests-acknowledgements.plist */,
+				BA961F30EADC10813E6A5E561111F33C /* Pods-AlteranExampleTests-dummy.m */,
+				A8B948318CAB10DB6F645388434A1DD8 /* Pods-AlteranExampleTests-frameworks.sh */,
+				2E10217252ACDF3819239F66D488FF28 /* Pods-AlteranExampleTests-resources.sh */,
+				B8F6CECB67307D7EF76882C49CA7F3EF /* Pods-AlteranExampleTests-umbrella.h */,
+				F3C4F5BADB76FCC3895A8FF2570599CF /* Pods-AlteranExampleTests.debug.xcconfig */,
+				454EBAA4DA50E26D9E31A7484F5E734D /* Pods-AlteranExampleTests.release.xcconfig */,
+			);
+			name = "Pods-AlteranExampleTests";
+			path = "Target Support Files/Pods-AlteranExampleTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD57D3B9288764A06A3158687FC8EF11 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3287429AD72589726F646565C0322C49 /* Pods-AlteranExample */,
+				AEEF6DB8D166AA06DFAE24E15B9CCD47 /* Pods-AlteranExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF0ECE9CB1E33CB5CA6998996B5EB7DF /* Alteran */ = {
+			isa = PBXGroup;
+			children = (
+				85CD2EF5529B08912C33B13E365D31A0 /* AlteranLocalization */,
+				F19769CE5D3B740BDCBCBC1151B9CB85 /* Support Files */,
+			);
+			name = Alteran;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F19769CE5D3B740BDCBCBC1151B9CB85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DDFEF40AC5FA3E4238C74ED752BED76 /* Alteran.modulemap */,
+				B6503D2BF9253EC591D982E8CCA9A16F /* Alteran.xcconfig */,
+				74193D5114D981B78BB93BD399F77777 /* Alteran-dummy.m */,
+				0DA51DD3E026B4611F3D2FEA43C8D73B /* Alteran-prefix.pch */,
+				1BE40CD1009B2EA498894B5DDDA858F2 /* Alteran-umbrella.h */,
+				18D9CC6B63B877A2A0CF16FC4D1561F3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "AlteranExample/Pods/Target Support Files/Alteran";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E3193CD95779ADDEE63FD3ED7CAB344 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDDA06FB567B6C5C133BD10C80A863F /* Pods-AlteranExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0ED372BB708C3731D44D79761C360B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909637A7B004F9F9D5D3A0587F03AEDD /* Alteran-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FC7957069AABD853290B1BE327951E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC88F8BC4AA309FC57C3DCCFE49A75D5 /* Pods-AlteranExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A26D867BE336D158CF922490B7A733BF /* Pods-AlteranExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76C26A6A814355E3339063D7FCF3FE0 /* Build configuration list for PBXNativeTarget "Pods-AlteranExampleTests" */;
+			buildPhases = (
+				11797C8C678AE7F4A1F6F69C998C7E32 /* Sources */,
+				15F739EBAD5967D6BB27D9665495110B /* Frameworks */,
+				0E3193CD95779ADDEE63FD3ED7CAB344 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A756CBDF447C378B67E9AA9E09F9660 /* PBXTargetDependency */,
+			);
+			name = "Pods-AlteranExampleTests";
+			productName = "Pods-AlteranExampleTests";
+			productReference = 2DA771DA6D10B32024BC6CB9EA405E5F /* Pods_AlteranExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB2A55F3CF09AB1B40D4CC38E1D4E225 /* Alteran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E319DE7E52E2608364FB577998C54E /* Build configuration list for PBXNativeTarget "Alteran" */;
+			buildPhases = (
+				D1B7372B5FCADDFE45CDD4088E6478BB /* Sources */,
+				D689B4AA4248301854593686A9E3FBA8 /* Frameworks */,
+				AA0ED372BB708C3731D44D79761C360B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alteran;
+			productName = Alteran;
+			productReference = F3A1F803E1808B0ACC922D31D79E90ED /* Alteran.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5231ADCD95404989FB35A5F39FB62C5 /* Pods-AlteranExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69DCEF4D49122AE562D63770AA4930E /* Build configuration list for PBXNativeTarget "Pods-AlteranExample" */;
+			buildPhases = (
+				8570D7312D39BF46EB79DDCB843E16E5 /* Sources */,
+				7E57CC65E943DED56EA4843B82F180B9 /* Frameworks */,
+				C1FC7957069AABD853290B1BE327951E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8ACAE3E3D6259CF842C95C496070924 /* PBXTargetDependency */,
+			);
+			name = "Pods-AlteranExample";
+			productName = "Pods-AlteranExample";
+			productReference = BEC4692441A43EF110273F3C671DC649 /* Pods_AlteranExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0E4B3D74840C06076285404A0B46ED2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2A55F3CF09AB1B40D4CC38E1D4E225 /* Alteran */,
+				F5231ADCD95404989FB35A5F39FB62C5 /* Pods-AlteranExample */,
+				A26D867BE336D158CF922490B7A733BF /* Pods-AlteranExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11797C8C678AE7F4A1F6F69C998C7E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56131A126811A30FA423C2D9873F35DF /* Pods-AlteranExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8570D7312D39BF46EB79DDCB843E16E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCED9E9511D184845CBC7FD4A802DD39 /* Pods-AlteranExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B7372B5FCADDFE45CDD4088E6478BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDED390A0D90D90B2053447F81949DAF /* Alteran-dummy.m in Sources */,
+				C8980F0AE4C101C1E0A500865C6668C4 /* Alteran.swift in Sources */,
+				3B2F45FE4A53F0831AE976FF4F781F25 /* Constants.swift in Sources */,
+				A291892316655F73133B229059B2C640 /* Extensions.swift in Sources */,
+				D5C2F96A00A71B2C6F81DEE835260A29 /* Functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A756CBDF447C378B67E9AA9E09F9660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alteran;
+			target = DB2A55F3CF09AB1B40D4CC38E1D4E225 /* Alteran */;
+			targetProxy = 0BDD76BD638ADAB131C4FA454489E70B /* PBXContainerItemProxy */;
+		};
+		B8ACAE3E3D6259CF842C95C496070924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alteran;
+			target = DB2A55F3CF09AB1B40D4CC38E1D4E225 /* Alteran */;
+			targetProxy = 8A372A58ACE0FC8C9E3EAD5E05C57D4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A2DF2176927914FA4A8934DC22E78F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6503D2BF9253EC591D982E8CCA9A16F /* Alteran.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alteran/Alteran-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alteran/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alteran/Alteran.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alteran;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A60C63D3CE56950A34C0AAFCD3A265E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6503D2BF9253EC591D982E8CCA9A16F /* Alteran.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alteran/Alteran-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alteran/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alteran/Alteran.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alteran;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A18F986FACEFE98A4D9B857837C01F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4126A7680AB28EBD11FBA4FCB1751C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5611E8F036A73F1E7FA5980DE6DDADEB /* Pods-AlteranExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AlteranExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlteranExample/Pods-AlteranExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AlteranExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5044E9792E7CA2DE6A044F35602F6585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C4F5BADB76FCC3895A8FF2570599CF /* Pods-AlteranExampleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AlteranExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlteranExampleTests/Pods-AlteranExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AlteranExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D34B7AD83E6FC7226717457DDB86E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454EBAA4DA50E26D9E31A7484F5E734D /* Pods-AlteranExampleTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AlteranExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlteranExampleTests/Pods-AlteranExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AlteranExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F48B798243BDAB85AD3DD293733E2A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE8F1C0C778E742AF1DD45EFF64F9DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D64C53DB74AD658C9A94E80EFD4373 /* Pods-AlteranExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AlteranExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlteranExample/Pods-AlteranExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AlteranExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E319DE7E52E2608364FB577998C54E /* Build configuration list for PBXNativeTarget "Alteran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A60C63D3CE56950A34C0AAFCD3A265E /* Debug */,
+				0A2DF2176927914FA4A8934DC22E78F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A18F986FACEFE98A4D9B857837C01F3 /* Debug */,
+				F48B798243BDAB85AD3DD293733E2A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76C26A6A814355E3339063D7FCF3FE0 /* Build configuration list for PBXNativeTarget "Pods-AlteranExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5044E9792E7CA2DE6A044F35602F6585 /* Debug */,
+				9D34B7AD83E6FC7226717457DDB86E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69DCEF4D49122AE562D63770AA4930E /* Build configuration list for PBXNativeTarget "Pods-AlteranExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8F1C0C778E742AF1DD45EFF64F9DD4 /* Debug */,
+				4126A7680AB28EBD11FBA4FCB1751C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
