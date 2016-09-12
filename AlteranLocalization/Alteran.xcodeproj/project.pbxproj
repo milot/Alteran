@@ -33,6 +33,14 @@
 		174EED001D7FEF2100066C60 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EECFF1D7FEF2100066C60 /* Extensions.swift */; };
 		174EED021D7FF20E00066C60 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EED011D7FF20E00066C60 /* Functions.swift */; };
 		174EED0B1D7FF27000066C60 /* AlteranWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 174EED0A1D7FF27000066C60 /* AlteranWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17C980CB1D8699D50022F658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C980CA1D8699D50022F658 /* AppDelegate.swift */; };
+		17C980CD1D8699D50022F658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C980CC1D8699D50022F658 /* ViewController.swift */; };
+		17C980D21D8699D50022F658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C980D11D8699D50022F658 /* Assets.xcassets */; };
+		17C980E01D8699D50022F658 /* AlteranExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C980DF1D8699D50022F658 /* AlteranExampleTests.swift */; };
+		17C980ED1D869BDD0022F658 /* Languages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17C980F01D869BDD0022F658 /* Languages.strings */; };
+		17C980EE1D869BDD0022F658 /* Languages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17C980F01D869BDD0022F658 /* Languages.strings */; };
+		17C980F51D869C6D0022F658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C980F31D869C6D0022F658 /* LaunchScreen.storyboard */; };
+		17C980F61D869C6D0022F658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C980F41D869C6D0022F658 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +64,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 174EECE01D7FED5D00066C60;
 			remoteInfo = Alteran;
+		};
+		17C980DC1D8699D50022F658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174EECD81D7FED5D00066C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C980C71D8699D50022F658;
+			remoteInfo = AlteranExample;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -85,6 +100,18 @@
 		174EED081D7FF27000066C60 /* AlteranWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlteranWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		174EED0A1D7FF27000066C60 /* AlteranWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlteranWatch.h; sourceTree = "<group>"; };
 		174EED0C1D7FF27000066C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C980C81D8699D50022F658 /* AlteranExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlteranExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C980CA1D8699D50022F658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17C980CC1D8699D50022F658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17C980D11D8699D50022F658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C980D61D8699D50022F658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C980DB1D8699D50022F658 /* AlteranExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlteranExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C980DF1D8699D50022F658 /* AlteranExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlteranExampleTests.swift; sourceTree = "<group>"; };
+		17C980E11D8699D50022F658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C980F11D869C0E0022F658 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Languages.strings; sourceTree = "<group>"; };
+		17C980F21D869C190022F658 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Languages.strings; sourceTree = "<group>"; };
+		17C980F31D869C6D0022F658 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17C980F41D869C6D0022F658 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +167,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17C980C51D8699D50022F658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C980D81D8699D50022F658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -189,6 +230,8 @@
 				172A996F1D7FF2B1007C0FF5 /* AlteranTVTests */,
 				172A99831D7FF2CB007C0FF5 /* AlteranMac */,
 				172A998F1D7FF2CB007C0FF5 /* AlteranMacTests */,
+				17C980C91D8699D50022F658 /* AlteranExample */,
+				17C980DE1D8699D50022F658 /* AlteranExampleTests */,
 				174EECE21D7FED5D00066C60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -203,6 +246,8 @@
 				172A996B1D7FF2B1007C0FF5 /* AlteranTVTests.xctest */,
 				172A99821D7FF2CB007C0FF5 /* AlteranMac.framework */,
 				172A998B1D7FF2CB007C0FF5 /* AlteranMacTests.xctest */,
+				17C980C81D8699D50022F658 /* AlteranExample.app */,
+				17C980DB1D8699D50022F658 /* AlteranExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,6 +281,29 @@
 				174EED0C1D7FF27000066C60 /* Info.plist */,
 			);
 			path = AlteranWatch;
+			sourceTree = "<group>";
+		};
+		17C980C91D8699D50022F658 /* AlteranExample */ = {
+			isa = PBXGroup;
+			children = (
+				17C980F31D869C6D0022F658 /* LaunchScreen.storyboard */,
+				17C980F41D869C6D0022F658 /* Main.storyboard */,
+				17C980CA1D8699D50022F658 /* AppDelegate.swift */,
+				17C980CC1D8699D50022F658 /* ViewController.swift */,
+				17C980D11D8699D50022F658 /* Assets.xcassets */,
+				17C980D61D8699D50022F658 /* Info.plist */,
+				17C980F01D869BDD0022F658 /* Languages.strings */,
+			);
+			path = AlteranExample;
+			sourceTree = "<group>";
+		};
+		17C980DE1D8699D50022F658 /* AlteranExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C980DF1D8699D50022F658 /* AlteranExampleTests.swift */,
+				17C980E11D8699D50022F658 /* Info.plist */,
+			);
+			path = AlteranExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,13 +470,48 @@
 			productReference = 174EED081D7FF27000066C60 /* AlteranWatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		17C980C71D8699D50022F658 /* AlteranExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C980E21D8699D50022F658 /* Build configuration list for PBXNativeTarget "AlteranExample" */;
+			buildPhases = (
+				17C980C41D8699D50022F658 /* Sources */,
+				17C980C51D8699D50022F658 /* Frameworks */,
+				17C980C61D8699D50022F658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlteranExample;
+			productName = AlteranExample;
+			productReference = 17C980C81D8699D50022F658 /* AlteranExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C980DA1D8699D50022F658 /* AlteranExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C980E51D8699D50022F658 /* Build configuration list for PBXNativeTarget "AlteranExampleTests" */;
+			buildPhases = (
+				17C980D71D8699D50022F658 /* Sources */,
+				17C980D81D8699D50022F658 /* Frameworks */,
+				17C980D91D8699D50022F658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C980DD1D8699D50022F658 /* PBXTargetDependency */,
+			);
+			name = AlteranExampleTests;
+			productName = AlteranExampleTests;
+			productReference = 17C980DB1D8699D50022F658 /* AlteranExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		174EECD81D7FED5D00066C60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Milot Shala";
 				TargetAttributes = {
@@ -435,6 +538,15 @@
 					174EED071D7FF27000066C60 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					17C980C71D8699D50022F658 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					17C980DA1D8699D50022F658 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17C980C71D8699D50022F658;
+					};
 				};
 			};
 			buildConfigurationList = 174EECDB1D7FED5D00066C60 /* Build configuration list for PBXProject "Alteran" */;
@@ -443,6 +555,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				sq,
 			);
 			mainGroup = 174EECD71D7FED5D00066C60;
 			productRefGroup = 174EECE21D7FED5D00066C60 /* Products */;
@@ -456,6 +569,8 @@
 				172A996A1D7FF2B1007C0FF5 /* AlteranTVTests */,
 				172A99811D7FF2CB007C0FF5 /* AlteranMac */,
 				172A998A1D7FF2CB007C0FF5 /* AlteranMacTests */,
+				17C980C71D8699D50022F658 /* AlteranExample */,
+				17C980DA1D8699D50022F658 /* AlteranExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -507,6 +622,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C980C61D8699D50022F658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C980F51D869C6D0022F658 /* LaunchScreen.storyboard in Resources */,
+				17C980ED1D869BDD0022F658 /* Languages.strings in Resources */,
+				17C980D21D8699D50022F658 /* Assets.xcassets in Resources */,
+				17C980F61D869C6D0022F658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C980D91D8699D50022F658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C980EE1D869BDD0022F658 /* Languages.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +715,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17C980C41D8699D50022F658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C980CD1D8699D50022F658 /* ViewController.swift in Sources */,
+				17C980CB1D8699D50022F658 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C980D71D8699D50022F658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C980E01D8699D50022F658 /* AlteranExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -599,7 +750,24 @@
 			target = 174EECE01D7FED5D00066C60 /* Alteran */;
 			targetProxy = 174EECED1D7FED5D00066C60 /* PBXContainerItemProxy */;
 		};
+		17C980DD1D8699D50022F658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C980C71D8699D50022F658 /* AlteranExample */;
+			targetProxy = 17C980DC1D8699D50022F658 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C980F01D869BDD0022F658 /* Languages.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C980F11D869C0E0022F658 /* en */,
+				17C980F21D869C190022F658 /* sq */,
+			);
+			name = Languages.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		172A99741D7FF2B1007C0FF5 /* Debug */ = {
@@ -617,6 +785,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -637,6 +806,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -650,6 +820,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Debug;
@@ -662,6 +833,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Release;
@@ -744,6 +916,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -795,6 +968,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -852,6 +1026,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -870,6 +1045,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.milot.Alteran;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -880,6 +1056,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -890,6 +1067,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -909,6 +1087,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -930,8 +1109,75 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		17C980E31D8699D50022F658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = AlteranExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		17C980E41D8699D50022F658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = AlteranExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		17C980E61D8699D50022F658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = AlteranExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlteranExample.app/AlteranExample";
+			};
+			name = Debug;
+		};
+		17C980E71D8699D50022F658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = AlteranExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.milot.AlteranExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlteranExample.app/AlteranExample";
 			};
 			name = Release;
 		};
@@ -1009,6 +1255,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		17C980E21D8699D50022F658 /* Build configuration list for PBXNativeTarget "AlteranExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C980E31D8699D50022F658 /* Debug */,
+				17C980E41D8699D50022F658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17C980E51D8699D50022F658 /* Build configuration list for PBXNativeTarget "AlteranExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C980E61D8699D50022F658 /* Debug */,
+				17C980E71D8699D50022F658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
