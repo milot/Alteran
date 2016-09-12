@@ -18,8 +18,8 @@ AlteranLocalized function to replace NSLocalizedString
 - Parameter string to be localized
 - Returns: Localized String
 */
-public func AlteranLocalized(string string: String) -> String {
-	return string.localized()
+public func AlteranLocalized(string: String) -> String {
+	return string.alteranLocalized()
 }
 
 /*
@@ -27,8 +27,8 @@ AlteranLocalized function to replace NSLocalizedString that uses format argument
 - Parameter string to be localized
 - Returns: Localized String
 */
-public func AlteranLocalized(string string: String, arguments: CVarArgType...) -> String {
-	return String(format: string.localized(), arguments: arguments)
+public func AlteranLocalized(string: String, arguments: CVarArg...) -> String {
+	return String(format: string.alteranLocalized(), arguments: arguments)
 }
 
 /*
@@ -36,6 +36,6 @@ AlteranLocalizedPlural function to replace NSLocalizedString Plural format
 - Parameter string to be localized
 - Returns: Localized String
 */
-public func AlteranLocalizedPlural(string string: String, argument: CVarArgType) -> String {
-	return string.localizedPlural(argument)
+public func AlteranLocalizedPlural(string: String, argument: CVarArg) -> String {
+	return string.alteranLocalizedPlural(argument)
 }

@@ -14,20 +14,20 @@ import Foundation
 */
 public extension String {
 	func alteranLocalized() -> String {
-		if let path = NSBundle.mainBundle().pathForResource(Alteran.currentLanguage(), ofType: "lproj"), bundle = NSBundle(path: path) {
-			return bundle.localizedStringForKey(self, value: nil, table: nil)
+		if let path = Bundle.main.path(forResource: Alteran.currentLanguage(), ofType: "lproj"), let bundle = Bundle(path: path) {
+			return bundle.localizedString(forKey: self, value: nil, table: nil)
 		}
-		else if let path = NSBundle.mainBundle().pathForResource(MILBase, ofType: "lproj"), bundle = NSBundle(path: path) {
-			return bundle.localizedStringForKey(self, value: nil, table: nil)
+		else if let path = Bundle.main.path(forResource: MILBase, ofType: "lproj"), let bundle = Bundle(path: path) {
+			return bundle.localizedString(forKey: self, value: nil, table: nil)
 		}
 		return self
 	}
 	
-	func alteranLocalizedFormat(arguments: CVarArgType...) -> String {
+	func alteranLocalizedFormat(_ arguments: CVarArg...) -> String {
 		return String(format: alteranLocalized(), arguments: arguments)
 	}
 	
-	func alteranLocalizedPlural(argument: CVarArgType) -> String {
-		return NSString.localizedStringWithFormat(alteranLocalized(), argument) as String
+	func alteranLocalizedPlural(_ argument: CVarArg) -> String {
+		return NSString.localizedStringWithFormat(alteranLocalized() as NSString, argument) as String
 	}
 }
