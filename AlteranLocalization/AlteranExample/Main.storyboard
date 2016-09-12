@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A320" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AlteranExample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +18,60 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Language:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sh7-Ph-k0P">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="hie-GL-sGD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="27"/>
+                                <color key="textColor" red="0.049732752140000003" green="0.070522896949999997" blue="0.53890150790000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIf-Vl-8K2">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="Q5b-8l-p8Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="27"/>
+                                <color key="textColor" red="0.0497327521443367" green="0.070522896945476532" blue="0.53890150785446167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IE0-35-9JK">
+                                <color key="backgroundColor" red="0.049732752140000003" green="0.070522896949999997" blue="0.53890150790000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4W8-gk-lcr"/>
+                                    <constraint firstAttribute="height" constant="100" id="w25-jW-qAL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Switch">
+                                    <color key="titleColor" red="0.17719945309999999" green="0.2094232738" blue="0.95709127189999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchLanguagePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gX2-0K-rgx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.17719945311546326" green="0.20942327380180359" blue="0.95709127187728882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="trailing" secondItem="hIf-Vl-8K2" secondAttribute="trailing" id="0tk-Aw-nCP"/>
+                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Bqe-Bf-48j"/>
+                            <constraint firstItem="hIf-Vl-8K2" firstAttribute="top" secondItem="Sh7-Ph-k0P" secondAttribute="bottom" constant="8" symbolic="YES" id="Grk-Pu-G5i"/>
+                            <constraint firstItem="IE0-35-9JK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WQK-xj-7yp"/>
+                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dA0-n5-Ozb"/>
+                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="leading" secondItem="hIf-Vl-8K2" secondAttribute="leading" id="di6-6u-ONg"/>
+                            <constraint firstItem="hIf-Vl-8K2" firstAttribute="centerX" secondItem="IE0-35-9JK" secondAttribute="centerX" id="gd8-My-mf6"/>
+                            <constraint firstItem="Sh7-Ph-k0P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iWk-Ak-4Ku"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IE0-35-9JK" secondAttribute="bottom" constant="284" id="wq9-nB-LNC"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnSwitchLanguage" destination="IE0-35-9JK" id="KMI-9o-h2p"/>
+                        <outlet property="lblActualLanguageWording" destination="hIf-Vl-8K2" id="uP1-fR-hu9"/>
+                        <outlet property="lblCurrentLanguage" destination="Sh7-Ph-k0P" id="BM2-w2-1x2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="137.18140929535232"/>
         </scene>
     </scenes>
 </document>

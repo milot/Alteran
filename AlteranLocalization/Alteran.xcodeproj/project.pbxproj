@@ -41,6 +41,7 @@
 		17C980EE1D869BDD0022F658 /* Languages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17C980F01D869BDD0022F658 /* Languages.strings */; };
 		17C980F51D869C6D0022F658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C980F31D869C6D0022F658 /* LaunchScreen.storyboard */; };
 		17C980F61D869C6D0022F658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C980F41D869C6D0022F658 /* Main.storyboard */; };
+		17C980F81D86A09B0022F658 /* HandyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C980F71D86A09B0022F658 /* HandyExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		17C980F21D869C190022F658 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Languages.strings; sourceTree = "<group>"; };
 		17C980F31D869C6D0022F658 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17C980F41D869C6D0022F658 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		17C980F71D86A09B0022F658 /* HandyExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandyExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +292,7 @@
 				17C980F41D869C6D0022F658 /* Main.storyboard */,
 				17C980CA1D8699D50022F658 /* AppDelegate.swift */,
 				17C980CC1D8699D50022F658 /* ViewController.swift */,
+				17C980F71D86A09B0022F658 /* HandyExtensions.swift */,
 				17C980D11D8699D50022F658 /* Assets.xcassets */,
 				17C980D61D8699D50022F658 /* Info.plist */,
 				17C980F01D869BDD0022F658 /* Languages.strings */,
@@ -721,6 +724,7 @@
 			files = (
 				17C980CD1D8699D50022F658 /* ViewController.swift in Sources */,
 				17C980CB1D8699D50022F658 /* AppDelegate.swift in Sources */,
+				17C980F81D86A09B0022F658 /* HandyExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

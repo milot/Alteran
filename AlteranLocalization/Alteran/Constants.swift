@@ -9,13 +9,13 @@
 import Foundation
 
 // Current selected language
-let MILCurrentLanguage = "MILCurrentLanguage"
+let ALTCurrentLanguage = "MILCurrentLanguage"
 
 // Default language
-let MILDefaultLanguage = "en"
+let ALTDefaultLanguage = "en"
 
 // Base language (can be other than English)
-let MILBase = "Base"
+let ALTBase = "Base"
 
 // Language Change Notification ID
-public let MILLanguageChangeNotification = "MILLanguageChangeNotification"
+public let ALTLanguageChangeNotification = "MILLanguageChangeNotification"

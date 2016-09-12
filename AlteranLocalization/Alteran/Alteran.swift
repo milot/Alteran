@@ -21,9 +21,6 @@ public class Alteran: NSObject {
 		if let baseIndex = availableLanguages.index(of: "Base") , excludeBase == true {
 			availableLanguages.remove(at: baseIndex)
 		}
-		
-		print(availableLanguages.count)
-		
 		return availableLanguages
 	}
 	
@@ -35,7 +32,7 @@ public class Alteran: NSObject {
 		var defaultLanguage = String()
 		
 		guard let preferredLanguage = Bundle.main.preferredLocalizations.first else {
-			return MILDefaultLanguage
+			return ALTDefaultLanguage
 		}
 		
 		let availableLanguages = self.availableLanguages()
@@ -43,7 +40,7 @@ public class Alteran: NSObject {
 		if availableLanguages.contains(preferredLanguage) {
 			defaultLanguage = preferredLanguage
 		} else {
-			defaultLanguage = MILDefaultLanguage
+			defaultLanguage = ALTDefaultLanguage
 		}
 		
 		return defaultLanguage
@@ -53,7 +50,7 @@ public class Alteran: NSObject {
 		Returns current selected language, if no language is selected returns the default language.
 	*/
 	public class func currentLanguage() -> String {
-		if let currentLanguage = UserDefaults.standard.object(forKey: MILCurrentLanguage) as? String {
+		if let currentLanguage = UserDefaults.standard.object(forKey: ALTCurrentLanguage) as? String {
 			return currentLanguage
 		}
 		return defaultLanguage()
@@ -65,9 +62,9 @@ public class Alteran: NSObject {
 	public class func setCurrent(language: String) {
 		let selectedLanguage = availableLanguages().contains(language) ? language : defaultLanguage()
 		if selectedLanguage != currentLanguage() {
-			UserDefaults.standard.set(selectedLanguage, forKey: MILCurrentLanguage)
+			UserDefaults.standard.set(selectedLanguage, forKey: ALTCurrentLanguage)
 			UserDefaults.standard.synchronize()
-			NotificationCenter.default.post(name: Notification.Name(rawValue: MILLanguageChangeNotification), object: nil)
+			NotificationCenter.default.post(name: Notification.Name(rawValue: ALTLanguageChangeNotification), object: nil)
 		}
 	}
 	

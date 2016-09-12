@@ -17,7 +17,7 @@ public extension String {
 		if let path = Bundle.main.path(forResource: Alteran.currentLanguage(), ofType: "lproj"), let bundle = Bundle(path: path) {
 			return bundle.localizedString(forKey: self, value: nil, table: nil)
 		}
-		else if let path = Bundle.main.path(forResource: MILBase, ofType: "lproj"), let bundle = Bundle(path: path) {
+		else if let path = Bundle.main.path(forResource: ALTBase, ofType: "lproj"), let bundle = Bundle(path: path) {
 			return bundle.localizedString(forKey: self, value: nil, table: nil)
 		}
 		return self
